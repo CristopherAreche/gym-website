@@ -60,7 +60,9 @@ const Home = ({ setSelectedPage }: Props) => {
             }}
             className="mt-8 flex items-center gap-8"
           >
-            <ActionButton setSelectedPage={setSelectedPage}></ActionButton>
+            <ActionButton setSelectedPage={setSelectedPage}>
+              Join Now
+            </ActionButton>
             <AnchorLink
               className="hover text-sm font-bold text-primary-500 underline hover:text-secondary-500"
               onClick={() => setSelectedPage(SelectedPage.ContactUs)}
